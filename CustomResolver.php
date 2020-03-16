@@ -47,7 +47,7 @@ class CustomResolver implements ResolverInterface
                     $aaaa = 'dead:beef:dead:beef:dead:beef:dead:beef';
                 }
                 $answer->setRdata($aaaa);
-                $answer->setTtl(3600);
+                $answer->setTtl(1);
                 $answers[] = $answer;
             }
         }
